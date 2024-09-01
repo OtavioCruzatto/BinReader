@@ -1,0 +1,37 @@
+Para ver a versão do python:
+python --version
+
+Para atualizar a versão do pip:
+python.exe -m pip install --upgrade pip
+
+Para criar ambiente virtual usando venv:
+python -m venv env
+
+Para habilitar ambiente virtual:
+.\env\Scripts\activate
+Obs: O comando deve ser enviado pelo terminal e o shell deve estar na pasta raiz do projeto: "BinReader"
+
+Para rodar o script:
+python xxx.py
+Obs: O comando deve ser enviado pelo terminal, o ambiente virtual deve estar ativo e o shell deve estar na pasta do script: "App"
+
+Para desabilitar ambiente virtual:
+deactivate
+
+Para listar as dependencias do projeto:
+pip list
+
+Para criar arquivo requirements.txt:
+pip freeze > requirements.txt
+
+Para instalar as dependencias a partir do pip freeze > requirements.txt:
+pip install -r requirements.txt
+
+Versão do python:
+Python 3.11.0
+
+Pip list:
+Package    Version
+---------- -------
+pip        24.2
+setuptools 65.5.0

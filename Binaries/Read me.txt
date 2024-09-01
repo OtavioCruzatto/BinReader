@@ -1,0 +1,2 @@
+Put here the binary file to be read.
+Maximum size: 8KB (8192 bytes).
